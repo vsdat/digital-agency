@@ -1,0 +1,21 @@
+.header-bg {
+   background-color: $primary;
+}
+
+.header__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: $white;
+}
+
+.header__logo {
+   padding: 1.7rem 0 1.7rem 6rem;
+}
+
+.nav {
+   padding-right: 6rem;
+   &__link {
+      padding-left: 1rem;
+   }
+}

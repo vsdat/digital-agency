@@ -1,1 +1,33 @@
 @import 'vars';
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 1.6rem;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+@import 'blocks/container';
+@import 'blocks/header';
+@import 'blocks/intro';
+@import 'blocks/btn';
