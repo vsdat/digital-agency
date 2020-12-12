@@ -16,6 +16,9 @@
 .nav {
    padding-right: 6rem;
    &__link {
-      padding-left: 1rem;
+      padding-left: 3rem;
+      &:hover {
+         text-decoration: underline;
+      }
    }
 }

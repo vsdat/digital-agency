@@ -3,10 +3,11 @@
    flex-direction: column;
    justify-content: center;
    width: 100%;
-   background-image: url(../img/bg-img.jpg);
+   background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../img/bg-img.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
+
 
 .intro__inner {
    margin: 0 auto;
@@ -45,15 +46,17 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 5.7rem 0;
+   padding: 5.7rem 15rem;
 }
 
 .promo {
    &__describe {
       max-width: 55rem;
       color: $white;
+      
    }
    &__title {
+      margin-bottom: 1rem;
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-size: 2.4rem;

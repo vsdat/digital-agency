@@ -1,4 +1,7 @@
 .btn {
+   width: 20rem;
+   height: 5rem;
+   font-family: 'Roboto', sans-serif;
    padding: 1.4rem 4.6rem;
    font-size: 1.8rem;
    background-color: $btn-color;
@@ -11,10 +14,16 @@
 }
 
 .promo__btn {
+   width: 20rem;
+   height: 5rem;
+   border: none;
+   font-family: 'Roboto', sans-serif;
    background-color: #F9F6E5;
    text-transform: uppercase;
    color: $primary;
    font-weight: 500;
-   font-size: 1.8rem;
-   padding: 1.6rem;
+   font-size: 1.5rem;
+   padding: 1.5rem 1rem;
+   cursor: pointer;
+   border-radius: 3px;
 }
